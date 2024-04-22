@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--this tag controls the page's dimension and scaling-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Toastology</title>
+
+  <!-- CSS + JS -->
+  <link href="styleee.css" rel="stylesheet" type="text/css" />
+  <script src="script2.js"></script>
+  <!-- Icon -->
+  <link rel="icon" href="pic/icon.png">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html">Bakery</a>
+    <a href="toast.html">Menu</a>
+    <a href="about.html">About</a>
+  </header>
+
+  <section class = menu>
+    <img src = "pic/menu.png">
+  </section>
+
+  <section class="section">
+    <div class="slider">
+      <div class="slide">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <input type="radio" name="radio-btn" id="radio5">
+        <input type="radio" name="radio-btn" id="radio6">
+        <input type="radio" name="radio-btn" id="radio7">
+        <input type="radio" name="radio-btn" id="radio8">
+        <input type="radio" name="radio-btn" id="radio9">
+        <input type="radio" name="radio-btn" id="radio10">
+        <input type="radio" name="radio-btn" id="radio11">
+        <input type="radio" name="radio-btn" id="radio12">
+        <input type="radio" name="radio-btn" id="radio13">
+        <input type="radio" name="radio-btn" id="radio14">
+        <input type="radio" name="radio-btn" id="radio15">
+        <input type="radio" name="radio-btn" id="radio16">
+
+        <div class="st first"><img src ="poster/infp.png" alt=""></div>
+        <div class="st"><img src ="poster/ISTJ.png" alt=""></div>
+        <div class="st"><img src ="poster/ESTP.png" alt=""></div>
+        <div class="st"><img src ="poster/INTJ.png" alt=""></div>
+        <div class="st"><img src ="poster/ENFJ.png" alt=""></div>
+        <div class="st"><img src ="poster/ESFP.png" alt=""></div>
+        <div class="st"><img src ="poster/ESTJ.png" alt=""></div>
+        <div class="st"><img src ="poster/INFJ.png" alt=""></div>
+        <div class="st"><img src ="poster/ISFJ.png" alt=""></div>
+        <div class="st"><img src ="poster/ENFJ.png" alt=""></div>
+        <div class="st"><img src ="poster/ESFJ.png" alt=""></div>
+        <div class="st"><img src ="poster/ISTP" alt=""></div>
+        <div class="st"><img src ="poster/ISFP.png" alt=""></div>
+        <div class="st"><img src ="poster/ENTJ.png" alt=""></div>
+        <div class="st"><img src ="poster/INTP.png" alt=""></div>
+        <div class="st"><img src ="poster/ENTP.png" alt=""></div>
+
+        <div class="nav-auto">
+          <div class="a-b1"></div>
+          <div class="a-b2"></div>
+          <div class="a-b3"></div>
+          <div class="a-b4"></div>
+          <div class="a-b5"></div>
+          <div class="a-b6"></div>
+          <div class="a-b7"></div>
+          <div class="a-b8"></div>
+          <div class="a-b9"></div>
+          <div class="a-b10"></div>
+          <div class="a-b11"></div>
+          <div class="a-b12"></div>
+          <div class="a-b13"></div>
+          <div class="a-b14"></div>
+          <div class="a-b15"></div>
+          <div class="a-b16"></div>
+        </div>
+
+        <div class="nav-m">
+          <label for="radio1" class="m-btn"></label>
+          <label for="radio2" class="m-btn"></label>
+          <label for="radio3" class="m-btn"></label>
+          <label for="radio4" class="m-btn"></label>
+          <label for="radio5" class="m-btn"></label>
+          <label for="radio6" class="m-btn"></label>
+          <label for="radio7" class="m-btn"></label>
+          <label for="radio8" class="m-btn"></label>
+          <label for="radio9" class="m-btn"></label>
+          <label for="radio10" class="m-btn"></label>
+          <label for="radio11" class="m-btn"></label>
+          <label for="radio12" class="m-btn"></label>
+          <label for="radio13" class="m-btn"></label>
+          <label for="radio14" class="m-btn"></label>
+          <label for="radio15" class="m-btn"></label>
+          <label for="radio16" class="m-btn"></label>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript">
+    var counter=1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked=true;
+      counter++;
+      if(counter > 16){
+        counter = 1;
+      }
+    },5000);
+  </script>
+</body>
+</html>
