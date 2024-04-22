@@ -1,0 +1,170 @@
+/* Index.html */
+html {
+  height: auto;
+  width: 100%;
+  padding: 10 10 10 10;
+  background-color: #f9e5c1;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  height: 100%;
+  padding-top: 5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+body img{
+  max-width: 380px;
+  height: auto;
+}
+
+#welcome{
+  text-align: center;
+  margin-top: 5%;
+}
+
+#welcome p{
+  font-weight: 500;
+  margin: 0 30px 0 30px;
+  color: #ca9558;
+  font-size: 10;
+}
+
+.header{
+  display: flex;
+  justify-content:space-evenly;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: none;
+}
+
+.header a{
+  text-decoration: none;
+  color: #7a3b2e;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.1s;
+}
+
+.header a:hover{
+  color: #9b3c27;
+  border-bottom: 3px solid #9b3c27
+}
+
+.toastBtn img{
+  margin-top: 8px;
+  max-width: 300px;
+}
+
+.image{
+  position: absolute;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.image:hover{
+  opacity: 0;
+}
+
+#footer{
+  width: 100%;
+  height: 100;
+  position: fixed;
+  bottom: 0;
+  display: block;
+  text-align: center;
+  background-color: #8a3521;
+  color: #faecd7;
+}
+
+.footTxt h3{
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.footTxt p{
+  margin-top: 0;
+  font-size: 10px;
+  margin-bottom: 10;
+}
+
+/*result.html*/
+#posterRes h2{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: #7a3b2e;
+}
+
+#result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.posterRslt{
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+  margin: 10px;
+}
+
+.download-icon{
+  position: fixed;
+}
+
+.download-icon img{
+  width: 30px;
+  height: auto;
+}
+
+#toastOpt {
+  display: flex;
+  margin: auto;
+  justify-content:center;
+  max-width: 80%;
+}
+
+#toastOpt img{
+  max-width: 80px;
+  margin: 20px 10px 0 10px;
+  display: block;
+}
+
+#toastOpt a{
+  color: #7a3b2e;
+  transition: 0.2s;
+}
+
+.download {
+  display: inline-block;
+}
+
+.download img {
+  max-width: 100px;
+  transition: 0.4s
+}
+
+.download img:hover{
+  max-width: 100px;
+  cursor: pointer;
+}
+
+#otherToast a{
+  text-decoration: none;
+  margin: 20px;
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: #7a3b2e;
+}
+
+#otherToast a:hover{
+  color: #9b3c27;
+  font-weight: 500;
+}          
