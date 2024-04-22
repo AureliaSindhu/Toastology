@@ -22,7 +22,6 @@
   <li> Aurelia Sindhunirmala </li>
   <li> Aurelsia Sindhunirmala </li>
   <li> Albertus Sindhunirmala </li>
-  <p> p.s. we are siblings </p>
 
 <h4> License </h4>
   <p> Please do not copy our code for any purposes without contacting the contibutors. Contacts can be found in our about page on the official link. <p>
