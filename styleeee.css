@@ -75,8 +75,8 @@ body{
 .creators {
   display: flex;
   overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  /* justify-content: center;  */
+  scroll-snap-type: x;
+  /* justify-content: space-evenly; */
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -84,13 +84,14 @@ body{
 
 .slide {
   display: flex;
+  align-items: flex-start;
   transition: transform 0.3s ease-in-out;
 }
 
 .card {
   width: 300px;
   background-color: #7a3b2e;
-  margin: 0 10px;
+  margin: 0 30px 0 30px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   overflow: hidden;
