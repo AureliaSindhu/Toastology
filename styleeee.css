@@ -40,7 +40,6 @@ body{
   background-color: #fbefd8 ;
 }
 
-/*about.html*/
 .title h3{
   font-size: 20px;
   margin: 20px 0 0 0;
@@ -76,10 +75,15 @@ body{
   display: flex;
   overflow-x: scroll;
   scroll-snap-type: x;
-  /* justify-content: space-evenly; */
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media only screen and (min-width: 1101px){
+  .creators {
+    justify-content: center;
+  }
 }
 
 .slide {

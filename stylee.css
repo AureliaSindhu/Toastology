@@ -45,7 +45,6 @@ html{
 .option button {
   width: 100%;
   padding: 10px 5px 10px 5px;
-  /* margin: 10px 10px 0px 10px; */
   font-size: 13px;
   border: none;
   border-radius: 5px;
@@ -53,12 +52,3 @@ html{
   color: #fff;
   cursor: pointer;
 }
-
-/* .option button:hover {
-  background-color: #4d0a0a;
-}
-
-.option button:active {
-  background-color: #4d0a0a;
-  transform: translateY(2px); 
-} */
