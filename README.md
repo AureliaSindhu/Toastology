@@ -1,4 +1,4 @@
-# <h2> Toastology 🍞 </h2>
+# <h2 align = "center"> Toastology 🍞 </h2>
 <p> Please read through the read me especially the license section before delving deeper into this repository </p>
 
 <h4> What is Toastology? </h4>
