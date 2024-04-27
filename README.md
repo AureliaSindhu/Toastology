@@ -16,7 +16,7 @@
   <li> About: learn about the program and the team behind this </li>
 <h4> Contributors </h4>
   <li> Aurelia Sindhunirmala </li>
-  <li> Aurelsia Sindhunirmala </li>
+  <li> Aurelisa Sindhunirmala </li>
   <li> Albertus Sindhunirmala </li>
 <h4> License </h4>
   <p> Please do not copy our code for any purposes without contacting the contibutors. Contacts can be found in our about page on the official link. <p>
