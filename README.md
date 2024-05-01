@@ -1,5 +1,5 @@
 # <h2 align = "center"> Toastology 🍞 </h2>
-<p> Please read through the read me especially the license section before delving deeper into this repository </p>
+<p> Please read through the read me, especially the license section before delving deeper into this repository </p>
 
 <h4> What is Toastology? </h4>
   <p> Toastology is a personality test inspired by the theory of Isabel Myers and Katharine Briggs. This project assesses individual preferences across four dimensions of personality types, providing insights into strengths, weaknesses, and tendencies. <p>
@@ -19,8 +19,8 @@
   <li> Aurelisa Sindhunirmala </li>
   <li> Albertus Sindhunirmala </li>
 <h4> License </h4>
-  <p> Please do not copy our code for any purposes without contacting the contibutors. Contacts can be found in our about page on the official link. <p>
-  <p> The artwork, characters, and intellectual property associated with Toastology are copyrighted and may not be used or reproduced without explicit permission from the creators. Do not copy or distribute any contents, including code and artwork, without permission. </p>
+  <p> Please do not copy (including forking this repository) our code for any purposes without contacting the contributors. Contacts can be found on our about page on the official link. <p>
+  <p> The artwork, characters, and intellectual property associated with Toastology are copyrighted and may not be used or reproduced without explicit permission from the creators. Do not copy or distribute any content, including code and artwork, without permission. </p>
 <h4> Acknowledgements </h4>
   <p> Isabel Myers and Katharine Briggs for their theory and inspiration </p>
 <h4> Version </h4>
