@@ -4,7 +4,7 @@
 <h4> What is Toastology? </h4>
   <p> Toastology is a personality test inspired by the theory of Isabel Myers and Katharine Briggs. This project assesses individual preferences across four dimensions of personality types, providing insights into strengths, weaknesses, and tendencies. <p>
 <h4> Take your test now! </h4>
-  <p> Link: </p>
+  <p> Link: https://bit.ly/toastology </p>
 <h4> Project Overview </h4>
   <li> A 12-question personality test </li>
   <li> Four dimensions of personality types </li>
