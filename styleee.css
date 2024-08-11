@@ -60,7 +60,7 @@ body{
 }
 
 .slider{
-  max-width: 325px;
+  max-width: 300px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -80,7 +80,7 @@ body{
 }
 
 .st img{
-  max-width: 325px;
+  max-width: 300px;
   height: auto;
   border-radius: 20px;
 }
