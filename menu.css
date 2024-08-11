@@ -44,8 +44,7 @@ body{
 }
 
 .section{
-  padding: 35px 0 0 0;
-  bottom: 30px;
+  padding-top: 1vh;
   height: auto; 
   display: flex;
   justify-content: center;
@@ -54,8 +53,7 @@ body{
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  border-radius: 2 rem;
-  -ms-overflow-style: none; 
+  border-radius: 2rem;
   scrollbar-width: none; 
 }
 
@@ -87,7 +85,7 @@ body{
 
 #radio1:checked ~ .first{
   margin-left: 0;
- } 
+} 
 
 #radio2:checked ~ .first{
   margin-left: -20%;
@@ -216,56 +214,7 @@ body{
   margin: 0 5px 0 6px;
 }
 
-.m-btn:hover{
-  background-color: #562f15;
-}
-
-#radio1:checked ~ .a-b1{
-  background-color: #562f15;
-}
-#radio2:checked ~ .a-b2{
-  background-color: #562f15;
-}
-#radio3:checked ~ .a-b3{
-  background-color: #562f15;
-}
-#radio4:checked ~ .a-b4{
-  background-color: #562f15;
-}
-#radio5:checked ~ .a-b5{
-  background-color: #562f15;
-}
-#radio6:checked ~ .a-b6{
-  background-color: #562f15;
-}
-#radio7:checked ~ .a-b7{
-  background-color: #562f15;
-}
-#radio8:checked ~ .a-b8{
-  background-color: #562f15;
-}
-#radio9:checked ~ .a-b9{
-  background-color: #562f15;
-}
-#radio10:checked ~ .a-b10{
-  background-color: #562f15;
-}
-#radio11:checked ~ .a-b11{
-  background-color: #562f15;
-}
-#radio12:checked ~ .a-b12{
-  background-color: #562f15;
-}
-#radio13:checked ~ .a-b13{
-  background-color: #562f15;
-}
-#radio14:checked ~ .a-b14{
-  background-color: #562f15;
-}
-#radio15:checked ~ .a-b15{
-  background-color: #562f15;
-}
-#radio16:checked ~ .a-b16{
+.m-btn:hover, #radio1:checked ~ .a-b1, #radio2:checked ~ .a-b2, #radio3:checked ~ .a-b3, #radio4:checked ~ .a-b4, #radio5:checked ~ .a-b5,#radio6:checked ~ .a-b6, #radio7:checked ~ .a-b7, #radio8:checked ~ .a-b8, #radio9:checked ~ .a-b9, #radio10:checked ~ .a-b10, #radio11:checked ~ .a-b11, #radio12:checked ~ .a-b12, #radio13:checked ~ .a-b13, #radio14:checked ~ .a-b14, #radio15:checked ~ .a-, #radio16:checked ~ .a-b16{
   background-color: #562f15;
 }
 

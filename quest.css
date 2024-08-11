@@ -1,0 +1,82 @@
+:root{
+    --background: #f9e5c1;
+    --prim: #ca9558;
+    --sec: #5a3830;
+    --ter: #9b3c27;
+    --footer: #8a3521;
+    --a: #7a3b2e;
+    --text: #faecd7;
+}
+
+html{
+    height: 100vh;
+    width: auto;
+    margin: 30px 30px 30px 30px;
+    background-color: #5a3830;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    overflow-y: hidden;
+}
+
+#progress-container {
+    width: 100%;
+    background-color: var(--text);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#progress-bar {
+    width: 0%;
+    height: 20px;
+    background-color: var(--footer);
+    border-radius: 10px;
+    transition: width 2s ease;
+}
+
+#load img{
+    max-width: 150px;   
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#quiz{
+    text-align: justify;
+}
+
+.nar-style {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--text);
+    text-align: center;
+    padding: 20px;
+}
+
+.ep-style{
+    font-size: 13px;
+    text-align: center;
+    color: var(--text);
+}
+
+.option{
+    font-size: 13px;
+    color: var(--text);
+    justify-content: center;
+    margin: 0;
+}
+
+.option button {
+    width: 100%;
+    padding: 10px 5px 10px 5px;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--ter);
+    color: var(--text);
+    justify-items: center;
+}
+
+.option button:hover{
+    background-color: var(--prim);
+    color: var(--sec);
+}

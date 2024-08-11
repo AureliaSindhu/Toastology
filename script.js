@@ -58,9 +58,22 @@ function startQuiz() {
   let choicesMade = 0; 
   let currOpt = 0;
 
+  const totalEpisodes = ep.flat().length;
+
+  function updateProgressBar(){
+    // const totalQuest = nar.length * ep[0].length;
+    const currProgress = currQuest * ep[0].length + currEp;
+    const progPercent = (currProgress/totalEpisodes)*100;
+
+    const progressBar = document.getElementById('progress-bar');
+    progressBar.style.width = progPercent + '%';
+  }
+
   function dispQuest() {
     const quizCont = document.getElementById('quiz');
     quizCont.innerHTML = ''; // Clear the quiz container
+
+    updateProgressBar();
 
     // Create narration element
     if(currEp == 0){
