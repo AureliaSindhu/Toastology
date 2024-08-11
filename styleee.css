@@ -149,22 +149,62 @@ body{
   margin-left: -300%;
 } 
 
-.nav-m, .nav-auto{
+/* .nav-m, .nav-auto{
   position: absolute;
   max-width: 350px;
   margin-top: -28px;
   display: flex;
   justify-content: center;
+} */
+
+/* .nav-m{
+  position: absolute;
+  max-width: 350px;
+  margin-top: -28px;
+  display: flex;
+  justify-content: center;
+} */
+
+.nav-buttons {
+  display: flex;
+  justify-content:space-between;
+  width: 5%;
+  z-index: 10;
 }
 
-.nav-auto div{
+.nav-buttons i{
+  font-size: 24px;
+  color:#562f15;
+  cursor:pointer;
+  margin:auto;
+  transition: color 0.3s;
+}
+
+.nav-buttons i:hover{
+  color:#895634;
+}
+/* .fa-solid {
+  border: none;
+  padding: 10px;
+  width: 12%;
+  cursor: pointer;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.fa-solid:hover{
+  background-color: #895634;
+} */
+
+
+/* .nav-auto div{
   border: 2px solid #895634;
   padding: 5px;
   border-radius: 10px;
   transition: 1s;
   justify-content: center;
   margin: 0 5px 0 6px;
-}
+} */
 
 .m-btn{
   border: 2px solid #895634;
@@ -180,51 +220,69 @@ body{
   background-color: #562f15;
 }
 
-#radio1:checked ~ .nav-auto .a-b1{
+#radio1:checked ~ .a-b1{
   background-color: #562f15;
 }
-#radio2:checked ~ .nav-auto .a-b2{
+#radio2:checked ~ .a-b2{
   background-color: #562f15;
 }
-#radio3:checked ~ .nav-auto .a-b3{
+#radio3:checked ~ .a-b3{
   background-color: #562f15;
 }
-#radio4:checked ~ .nav-auto .a-b4{
+#radio4:checked ~ .a-b4{
   background-color: #562f15;
 }
-#radio5:checked ~ .nav-auto .a-b5{
+#radio5:checked ~ .a-b5{
   background-color: #562f15;
 }
-#radio6:checked ~ .nav-auto .a-b6{
+#radio6:checked ~ .a-b6{
   background-color: #562f15;
 }
-#radio7:checked ~ .nav-auto .a-b7{
+#radio7:checked ~ .a-b7{
   background-color: #562f15;
 }
-#radio8:checked ~ .nav-auto .a-b8{
+#radio8:checked ~ .a-b8{
   background-color: #562f15;
 }
-#radio9:checked ~ .nav-auto .a-b9{
+#radio9:checked ~ .a-b9{
   background-color: #562f15;
 }
-#radio10:checked ~ .nav-auto .a-b10{
+#radio10:checked ~ .a-b10{
   background-color: #562f15;
 }
-#radio11:checked ~ .nav-auto .a-b11{
+#radio11:checked ~ .a-b11{
   background-color: #562f15;
 }
-#radio12:checked ~ .nav-auto .a-b12{
+#radio12:checked ~ .a-b12{
   background-color: #562f15;
 }
-#radio13:checked ~ .nav-auto .a-b13{
+#radio13:checked ~ .a-b13{
   background-color: #562f15;
 }
-#radio14:checked ~ .nav-auto .a-b14{
+#radio14:checked ~ .a-b14{
   background-color: #562f15;
 }
-#radio15:checked ~ .nav-auto .a-b15{
+#radio15:checked ~ .a-b15{
   background-color: #562f15;
 }
-#radio16:checked ~ .nav-auto .a-b16{
+#radio16:checked ~ .a-b16{
+  background-color: #562f15;
+}
+
+.mbti-btn{
+  display:block;
+  margin:10px auto 0 auto;
+  padding:10px;
+  font-size:14px;
+  color:white;
+  background-color:#895634;
+  border:none;
+  font-family:"Poppins", sans-serif;
+  border-radius:5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mbti-btn:hover{
   background-color: #562f15;
 }

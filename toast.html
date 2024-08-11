@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/120a414748.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -24,6 +26,10 @@
   </section>
 
   <section class="section">
+    <div class="nav-buttons">
+      <i class="fa-solid fa-arrow-left" id="prev"></i>
+    </div>
+
     <div class="slider">
       <div class="slide">
         <input type="radio" name="radio-btn" id="radio1">
@@ -43,24 +49,73 @@
         <input type="radio" name="radio-btn" id="radio15">
         <input type="radio" name="radio-btn" id="radio16">
 
-        <div class="st first"><img src ="poster/INFP.png" alt=""></div>
-        <div class="st"><img src ="poster/ISTJ.png" alt=""></div>
-        <div class="st"><img src ="poster/ESTP.png" alt=""></div>
-        <div class="st"><img src ="poster/INTJ.png" alt=""></div>
-        <div class="st"><img src ="poster/ENFJ.png" alt=""></div>
-        <div class="st"><img src ="poster/ESFP.png" alt=""></div>
-        <div class="st"><img src ="poster/ESTJ.png" alt=""></div>
-        <div class="st"><img src ="poster/INFJ.png" alt=""></div>
-        <div class="st"><img src ="poster/ISFJ.png" alt=""></div>
-        <div class="st"><img src ="poster/ENFP.png" alt=""></div>
-        <div class="st"><img src ="poster/ESFJ.png" alt=""></div>
-        <div class="st"><img src ="poster/ISTP.png" alt=""></div>
-        <div class="st"><img src ="poster/ISFP.png" alt=""></div>
-        <div class="st"><img src ="poster/ENTJ.png" alt=""></div>
-        <div class="st"><img src ="poster/INTP.png" alt=""></div>
-        <div class="st"><img src ="poster/ENTP.png" alt=""></div>
+        <div class="st first">
+          <img src ="poster/INFP.png" alt="">
+          <button class="mbti-btn" onclick="showMBTI('INFP')">Check out the MBTI</button>
+        </div>
+        <div class="st">
+          <img src ="poster/ISTJ.png" alt="">
+          <button class="mbti-btn" onclick="showMBTI('ISTJ')">Check out the MBTI</button>
+        </div>
+        <div class="st">
+          <img src ="poster/ESTP.png" alt="">
+          <button class="mbti-btn" onclick="showMBTI('ESTP')">Check out the MBTI</button>
+        </div>
+        <div class="st">
+          <img src ="poster/INTJ.png" alt="">
+          <button class="mbti-btn" onclick="showMBTI('INTJ')">Check out the MBTI</button>
+        </div>
+        <div class="st">
+          <img src ="poster/ENFJ.png" alt="">
+          <button class="mbti-btn" onclick="showMBTI('ENFJ')">Check out the MBTI</button>
+        </div>
+        <div class="st">
+          <img src ="poster/ESFP.png" alt="">
+          <button class="mbti-btn" onclick="showMBTI('ESFP')">Check out the MBTI</button>
+        </div>
+        <div class="st">
+          <img src ="poster/ESTJ.png" alt="">
+          <button class="mbti-btn" onclick="showMBTI('ESTJ')">Check out the MBTI</button>
+        </div>
+        <div class="st">
+          <img src ="poster/INFJ.png" alt="">
+          <button class="mbti-btn" onclick="showMBTI('INFJ')">Check out the MBTI</button>
+        </div>
+        <div class="st">
+          <img src ="poster/ISFJ.png" alt="">
+          <button class="mbti-btn" onclick="showMBTI('ISFJ')">Check out the MBTI</button>
+        
+        </div>
+        <div class="st">
+          <img src ="poster/ENFP.png" alt="">
+          <button class="mbti-btn" onclick="showMBTI('ENFP')">Check out the MBTI</button>
+        </div>
+        <div class="st">
+          <img src ="poster/ESFJ.png" alt="">
+          <button class="mbti-btn" onclick="showMBTI('ESFJ')">Check out the MBTI</button>
+        </div>
+        <div class="st">
+          <img src ="poster/ISTP.png" alt="">
+          <button class="mbti-btn" onclick="showMBTI('ISTP')">Check out the MBTI</button>
+        </div>
+        <div class="st">
+          <img src ="poster/ISFP.png" alt="">
+          <button class="mbti-btn" onclick="showMBTI('ISFP')">Check out the MBTI</button>
+        </div>
+        <div class="st">
+          <img src ="poster/ENTJ.png" alt="">
+          <button class="mbti-btn" onclick="showMBTI('ENTJ')">Check out the MBTI</button>
+        </div>
+        <div class="st">
+          <img src ="poster/INTP.png" alt="">
+          <button class="mbti-btn" onclick="showMBTI('INTP')">Check out the MBTI</button>
+        </div>
+        <div class="st">
+          <img src ="poster/ENTP.png" alt="">
+          <button class="mbti-btn" onclick="showMBTI('ENTP')">Check out the MBTI</button>
+        </div>
 
-        <div class="nav-auto">
+        <!-- <div class="nav-auto">
           <div class="a-b1"></div>
           <div class="a-b2"></div>
           <div class="a-b3"></div>
@@ -77,8 +132,8 @@
           <div class="a-b14"></div>
           <div class="a-b15"></div>
           <div class="a-b16"></div>
-        </div>
-
+        </div> -->
+<!-- 
         <div class="nav-m">
           <label for="radio1" class="m-btn"></label>
           <label for="radio2" class="m-btn"></label>
@@ -96,21 +151,43 @@
           <label for="radio14" class="m-btn"></label>
           <label for="radio15" class="m-btn"></label>
           <label for="radio16" class="m-btn"></label>
-        </div>
+        </div> -->
 
       </div>
     </div>
+
+    <div class="nav-buttons">
+      <i class="fa-solid fa-arrow-right" id="next"></i>
+    </div>
   </section>
 
-  <!-- <script type="text/javascript">
-    var counter=1;
-    setInterval(function(){
-      document.getElementById('radio' + counter).checked=true;
-      counter++;
-      if(counter > 16){
-        counter = 1;
+  <script>
+    let counter = 1;
+  
+    const prevButton = document.getElementById('prev');
+    const nextButton = document.getElementById('next');
+  
+    prevButton.addEventListener('click', () => {
+      counter--;
+      if (counter < 1) {
+        counter = 16; // Total number of slides
       }
-    },3000);
-  </script> -->
+      document.getElementById('radio' + counter).checked = true;
+    });
+  
+    nextButton.addEventListener('click', () => {
+      counter++;
+      if (counter > 16) {
+        counter = 1; // Reset to the first slide
+      }
+      document.getElementById('radio' + counter).checked = true;
+    });
+
+    function showMBTI(mbtiType){
+      alert("The MBTI type for this toast is -->" + mbtiType);
+    }
+  </script>
+  
+
 </body>
 </html>
