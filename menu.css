@@ -1,8 +1,18 @@
+:root{
+  --background: #f9e5c1;
+  --prim: #ca9558;
+  --sec: #5a3830;
+  --ter: #9b3c27;
+  --footer: #8a3521;
+  --a: #7a3b2e;
+  --text: #faecd7;
+}
+
 html {
   height: auto;
   width: 100%;
   padding: 10 10 10 10;
-  background-color: #f9e5c1;
+  background-color: var(--background);
   font-family: "Poppins", sans-serif;
 }
 
@@ -23,15 +33,15 @@ body{
 
 .header a{
   text-decoration: none;
-  color: #7a3b2e;
+  color: var(--a);
   font-size: 17px;
   font-weight: 500;
   transition: 0.4s;
 }
 
 .header a:hover{
-  color: #9b3c27;
-  border-bottom: 3px solid #9b3c27
+  color: var(--ter);
+  border-bottom: 3px solid var(--ter);
 }
 
 .menu img{
@@ -74,13 +84,13 @@ body{
 
 .st{
   width: 20%;
-/*   transition: 1s;  */
+  /* transition: 1s;  */
 }
 
 .st img{
   max-width: 300px;
   height: auto;
-  border-radius: 20px;
+  border-radius: .5rem;
 }
 
 #radio1:checked ~ .first{
@@ -172,14 +182,14 @@ body{
 
 .nav-buttons i{
   font-size: 24px;
-  color:#562f15;
+  color:var(--sec);
   cursor:pointer;
   margin:auto;
   transition: color 0.3s;
 }
 
 .nav-buttons i:hover{
-  color:#895634;
+  color:var(--a);
 }
 /* .fa-solid {
   border: none;
@@ -205,7 +215,7 @@ body{
 } */
 
 .m-btn{
-  border: 2px solid #895634;
+  border: 2px solid var(--sec);
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -215,7 +225,7 @@ body{
 }
 
 .m-btn:hover, #radio1:checked ~ .a-b1, #radio2:checked ~ .a-b2, #radio3:checked ~ .a-b3, #radio4:checked ~ .a-b4, #radio5:checked ~ .a-b5,#radio6:checked ~ .a-b6, #radio7:checked ~ .a-b7, #radio8:checked ~ .a-b8, #radio9:checked ~ .a-b9, #radio10:checked ~ .a-b10, #radio11:checked ~ .a-b11, #radio12:checked ~ .a-b12, #radio13:checked ~ .a-b13, #radio14:checked ~ .a-b14, #radio15:checked ~ .a-, #radio16:checked ~ .a-b16{
-  background-color: #562f15;
+  background-color: var(--ter);
 }
 
 .mbti-btn{
@@ -224,7 +234,7 @@ body{
   padding:10px;
   font-size:14px;
   color:white;
-  background-color:#895634;
+  background-color:var(--sec);
   border:none;
   font-family:"Poppins", sans-serif;
   border-radius:5px;
@@ -233,5 +243,5 @@ body{
 }
 
 .mbti-btn:hover{
-  background-color: #562f15;
+  background-color: var(--ter);
 }
