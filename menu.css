@@ -157,6 +157,10 @@ body{
   margin-left: -300%;
 } 
 
+#radio17:checked ~ .first{
+  margin-left: -320%;
+} 
+
 /* .nav-m, .nav-auto{
   position: absolute;
   max-width: 350px;

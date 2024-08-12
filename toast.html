@@ -2,7 +2,6 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
   <title>Toastology</title>
 
   <link href="menu.css" rel="stylesheet" type="text/css" />
@@ -10,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/120a414748.js" crossorigin="anonymous"></script>
 </head>
 
@@ -32,7 +30,6 @@
 
     <div class="slider">
       <div class="slide">
-        <input type="radio" name="radio-btn" id="radio">
         <input type="radio" name="radio-btn" id="radio1">
         <input type="radio" name="radio-btn" id="radio2">
         <input type="radio" name="radio-btn" id="radio3">
@@ -49,6 +46,7 @@
         <input type="radio" name="radio-btn" id="radio14">
         <input type="radio" name="radio-btn" id="radio15">
         <input type="radio" name="radio-btn" id="radio16">
+        <input type="radio" name="radio-btn" id="radio17">
 
         <div class="st first">
           <img src ="pic/guidelines.png" alt="">
@@ -175,14 +173,14 @@
     prevButton.addEventListener('click', () => {
       counter--;
       if (counter < 1) {
-        counter = 16; // Total number of slides
+        counter = 17; // Total number of slides
       }
       document.getElementById('radio' + counter).checked = true;
     });
   
     nextButton.addEventListener('click', () => {
       counter++;
-      if (counter > 16) {
+      if (counter > 17) {
         counter = 1; // Reset to the first slide
       }
       document.getElementById('radio' + counter).checked = true;
