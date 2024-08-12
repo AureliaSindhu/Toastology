@@ -23,5 +23,6 @@
   <p> The artwork, characters, and intellectual property associated with Toastology are copyrighted and may not be used or reproduced without explicit permission from the creators. Do not copy or distribute any content, including code and artwork, without permission. </p>
 <h4> Acknowledgements </h4>
   <p> Isabel Myers and Katharine Briggs for their theory and inspiration </p>
-<h4> Version </h4>
-  <p> 1.0 </p>
+<h4> Versions </h4>
+  <p> 1.0 - Published 04/24/24</p>
+  <p> 2.0 - Published 08/11/24</p>
