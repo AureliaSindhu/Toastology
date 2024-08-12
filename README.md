@@ -24,4 +24,5 @@
 <h4> Acknowledgements </h4>
   <p> Isabel Myers and Katharine Briggs for their theory and inspiration </p>
 <h4> Version </h4>
-  <p> 1.0 </p>
+  <p> 1.0 - published 04/24/24</p>
+  <p> 2.0 - published 08/11/24</p>
