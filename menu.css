@@ -180,11 +180,26 @@ body{
 .nav-buttons {
   display: flex;
   justify-content:space-between;
-  width: 5%;
+  /* width: 5%; */
   z-index: 10;
+  /* left: 10%; */
+  margin: 0;
+  padding: 0;
 }
 
-.nav-buttons i{
+.nav-buttons img{
+  width: 20px;
+  margin: 10px;
+}
+
+.nav-buttons img:hover{
+  background-color: var(--a);
+  border-color: var(--a);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* .nav-buttons i{
   font-size: 24px;
   color:var(--sec);
   cursor:pointer;
@@ -194,7 +209,7 @@ body{
 
 .nav-buttons i:hover{
   color:var(--a);
-}
+} */
 /* .fa-solid {
   border: none;
   padding: 10px;
