@@ -1,4 +1,7 @@
 # <h2 align = "center"> Toastology 🍞 </h2>
+
+![Product Preview](https://github.com/AureliaSindhu/Toastology/blob/main/pic/ToastologyReadMe.png)
+
 <p> Please read through the read me, especially the license section before delving deeper into this repository </p>
 
 <h4> What is Toastology? </h4>
